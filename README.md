@@ -64,4 +64,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Author
 
-Developed by Bruno Alves - https://github.com/your-username
+Developed by Bruno Alves - https://github.com/brunoalvesds
