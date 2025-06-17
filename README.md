@@ -1,4 +1,4 @@
-# Angular 20 User List App (Taller Challenge)
+# Angular 20 User List App - Taller Challenge
 
 A simple and modern Angular 20 standalone application that displays a list of users fetched from the JSONPlaceholder API. This project demonstrates Angular’s latest features, including standalone components, functional routing, and the modern `inject()` API for dependency injection.
 
