@@ -1,0 +1,58 @@
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.search-input {
+    padding: 0.8rem 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #007acc;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #007acc;
+}
+
+.card p {
+    margin: 0.5rem 0 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .search-input {
+        font-size: 0.9rem;
+    } }
